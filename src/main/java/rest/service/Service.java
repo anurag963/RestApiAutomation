@@ -1,13 +1,11 @@
 package rest.service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
