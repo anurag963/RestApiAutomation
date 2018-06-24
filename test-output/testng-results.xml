@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4918" started-at="2018-06-24T15:52:58Z" finished-at="2018-06-24T15:53:02Z">
+  <suite name="Default suite" duration-ms="4734" started-at="2018-06-24T19:20:31Z" finished-at="2018-06-24T19:20:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4918" started-at="2018-06-24T15:52:58Z" finished-at="2018-06-24T15:53:02Z">
-      <class name="rest.service.Service">
-        <test-method status="PASS" signature="test()[pri:0, instance:rest.service.Service@724af044]" name="test" duration-ms="4858" started-at="2018-06-24T21:22:58Z" finished-at="2018-06-24T21:23:02Z">
+    <test name="Default test" duration-ms="4734" started-at="2018-06-24T19:20:31Z" finished-at="2018-06-24T19:20:36Z">
+      <class name="com.test.testScripts.TestCaseGet">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.test.testScripts.TestCaseGet@2a2d45ba]" name="test" duration-ms="4680" started-at="2018-06-25T00:50:32Z" finished-at="2018-06-25T00:50:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- rest.service.Service -->
+      </class> <!-- com.test.testScripts.TestCaseGet -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

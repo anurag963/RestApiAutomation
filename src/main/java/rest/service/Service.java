@@ -92,15 +92,14 @@ public class Service {
 
 		System.out.println(data.asString());
 
-		
-		  Gson gson= new Gson();
+		if(data.getStatusCode()==201){
+			Gson gson= new Gson();
+			  
+			  CreateUserResponse createUserResponse= gson.fromJson(data.asString(), CreateUserResponse.class); 
+			  System.out.println(createUserResponse.getName());
+			  System.out.println(createUserResponse.getAddress().getCity());
+		}
 		  
-		  String str=data.asString();
-		  
-		  CreateUserResponse createUserResponse= gson.fromJson(str, CreateUserResponse.class); 
-		  System.out.println(data.getStatusCode());
-		  System.out.println(createUserResponse.getName());
-		  System.out.println(createUserResponse.getAddress().getCity());
 		 
 
 	}
